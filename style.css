@@ -1,0 +1,111 @@
+body{
+  font-family: Arial, Helvetica;
+  background: beige;
+}
+.menu{
+  list-style:none;
+  padding: 0px;
+  background: #092327;
+  width:90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration:none;
+  color:white;
+  padding:20px;
+  display:block;
+  
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover{
+  background: #ef8354;
+
+}
+.Seleccion{
+background: beige;
+
+  
+  
+}
+.Seleccion h1{text-align: center;
+  
+}
+
+h1{text-align: center;
+  
+}
+
+.grid-container {
+  
+  display: grid;
+  row-gap: 50px 100px;
+  grid-template-columns: auto auto auto ;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  padding: 10px;
+}
+
+.Afa{
+  display:flex;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  
+}
+
+h6{
+  color: blue;
+  
+}
+
+img{
+ border-radius:15px;
+box-shadow: 0px 3px 5px 5px rgba(15, 15, 15, .5);
+  }
+
+
+.Piso{
+  list-style:none;
+  padding: 0px;
+ background: #092327;  
+ width: 90%;
+ height:90%;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+.Piso p{
+  color: white;
+}
+.Piso li a{
+  text-decoration: none;
+  color: goldenrod;
+ padding: 20px;
+display:block;  
+}
+
+.Piso li{
+  display: inline-block;
+  
+  
+}
+
+.Piso li a:hover{
+  background: red;
+  
+}
+
+.ImposibleN{
+  
+  padding: 10px 10px 10px 10px;
+  
+}
+
+@media (min-width:320px) and (max-width:1200px){
+  
+}
